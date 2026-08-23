@@ -1,0 +1,27 @@
+# RiseFlow Robots.txt
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Allow: /
+Allow: /tools/
+Allow: /tools/resume-builder
+Allow: /tools/ats-keywords
+Allow: /tools/resume-analyzer
+Allow: /tools/cover-letter-generator
+Allow: /blog/
+Allow: /about
+Allow: /contact
+Allow: /privacy
+Allow: /terms
+Allow: /sitemap
+
+# Disallow private admin panel & sensitive routes
+Disallow: /admin
+Disallow: /admin/*
+Disallow: /admin/login
+Disallow: /admin/dashboard
+Disallow: /admin/articles
+Disallow: /admin/settings
+
+# Sitemap location for search engine crawlers (Google, Bing, Yahoo, Yandex)
+Sitemap: https://careerai.app/sitemap.xml

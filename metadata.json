@@ -1,0 +1,6 @@
+{
+  "name": "CareerAI - منصة التوظيف الذكية وإدارة المقالات",
+  "description": "منصة احترافية وعصرية لمساعدة الباحثين عن عمل بأدوات الذكاء الاصطناعي مع نظام إدارة محتوى (CMS) ومدونة متكاملة",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
